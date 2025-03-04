@@ -1,10 +1,18 @@
+*{
+
+   
+    padding: 0px;
+    box-sizing: border-box;
+}
 header{
     background-color: rgba(255, 228, 196, 0.729);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-decoration:none ;
-    list-style-type: none;
+   position: fixed;
+  top: 10px;
+  width: 100%;
+
     
 }
 header img {
